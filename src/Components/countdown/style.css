@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.calendar-container{
+    background-color: aliceblue;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+  
+}
+.calendar-container h1{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+.calendar-container .days{
+    padding: 5px;
+    font-size: 90px;
+    text-align: center;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.month-text{
+    font-size: 30px;
+    
+    
+}
+
+.calendar-container .remaning{
+     border-top:  2px dashed black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.input{
+    background-color:darkcyan;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 30%;
+
+
+}
+#rem-days{
+    padding: 10px;
+    border-radius: 5px; 
+    outline: none;
+}
+.lable{
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: white;
+}
+.btn-Submit{
+    padding: 5px;
+    font-size: 20px;
+    background-color:rgb(21, 73, 44);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    
+}
